@@ -1,3 +1,4 @@
+/* Default values */
 *,
 *:before,
 *:after{
@@ -10,96 +11,46 @@
 body, 
 html{
     height: 100%;
-    background-color: beige;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 }
-
-.Wrapper{
+.wrapper{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: blanchedalmond;
 }
-
 .fullscreen{
-    background-color: gray;
+    background-color: white;
     display: flex;
     min-height: 100vh;
-    padding: 20px 0;
+    padding: 0 20px;
 }
-
-/* Modificator */
-.fullscreen_two{
-    background-color: rgb(60, 59, 59);
-}
-
-.fullscreen_body{
-    color: white;
-    width: 100%;
-    flex: 1 1 auto;
-    max-width: 1000px;
-    background-color: rgb(155, 155, 155);
-    margin: 0px auto;
+.fullscreen__body{
     text-align: center;
     display: flex;
+    background-color: white;
+    color: rgb(18, 6, 72);
+    max-width: 1110px;
+    flex: 1 1 auto;
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
     padding: 0 50px;
+    margin: 50px auto;
+    justify-content: center;
 }
 
-.fullscreen_title{
-    font-size: 50px;
-    margin:  0 0 20px 0; /* up right down left*/
-}
-
-.fullscreen_text{
-    font-size: 25px;
-    margin:  0 0 20px 0; /* up right down left*/
-}
-
-.fullscreen_btm{
-    display: inline-block;
-    line-height: 50px;
-    text-transform: uppercase; /* Big bukvy */
-    color: white;
-    text-decoration: none;
-    letter-spacing: 2px;
-    background-color: salmon;
+.fullscreen__cont__title{
     align-self: center;
-    padding: 0 25px;
 }
 
-.footer{
-    background-color: #111;
-    text-align: center;
-    color: aliceblue;
+.fullscreen__title__name{
+    color: rgb(151, 197, 33);
 }
 
-.footer_body{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
-.content{
-
-}
-
-.content_body{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
-.content_body p{
-    margin: 0 0 30px 0;
-}
-
-.content_body p:last-child{
-    margin: 0;
-}
-
-.fullscreen_bg{
-    background: fixed;
-    background-color: #fff;
-}
+.fullscreen__title{}
+.fullscreen__title__name{}
+.fullscreen__text{}
+.fullscreen__game{}
+.fullscreen__btm{}
